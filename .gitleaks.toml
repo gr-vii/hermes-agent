@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+# RFC 6238 Appendix B's published TOTP test vector (base32 of the ASCII
+# string "12345678901234567890"), used verbatim by TOTP test suites
+# worldwide. Not a secret: it is printed in the RFC itself.
+[allowlist]
+regexes = ['''GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ''']
